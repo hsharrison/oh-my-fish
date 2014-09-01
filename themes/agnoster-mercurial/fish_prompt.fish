@@ -171,6 +171,7 @@ end
 
 function fish_prompt
   set -g RETVAL $status
+  z --add $PWD
   prompt_status
   prompt_virtual_env
   prompt_user
